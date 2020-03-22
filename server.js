@@ -4,13 +4,17 @@ const mongoose = require("mongoose");
 
 const app = express();
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
+
 app.use(express.json({ extended: true }));
 
 app.use("/api/employee", require("./routes/employee.routes"));
 
 app.use("/api/auth/", require("./routes/auth.routes"));
 
-const PORT = config.get("PORT") || 5000;
+const PORT = process.env.PORT || config.get("PORT") || 5000;
 
 async function start() {
   try {
