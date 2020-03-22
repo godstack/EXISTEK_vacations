@@ -1,0 +1,62 @@
+.auth-wrapper {
+  width: 400px;
+  margin: auto;
+  background-color: rgb(47, 92, 190);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 150px;
+}
+
+.auth-title {
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.auth-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+
+.button {
+  padding: 7px 10px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.btn-login {
+  color: white;
+  background-color: rgb(212, 144, 16);
+}
+
+.btn-register {
+  color: black;
+  background-color: rgb(189, 186, 181);
+}
+
+.auth-inputs {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px 0px;
+}
+
+.auth-inputs input {
+  color: black;
+  font-weight: bold;
+  width: 90% !important;
+  margin: 10px 0px;
+  padding: 5px 0px;
+  font-size: 1.2rem;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1.5px solid rgb(190, 167, 167);
+}
+
+.auth-inputs input::placeholder {
+  color: rgb(190, 167, 167);
+}

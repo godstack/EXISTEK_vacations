@@ -1,0 +1,5 @@
+{
+  "PORT": 5000,
+  "MongoUri": "mongodb+srv://godlexa:1mongoose1@cluster0-nlqoj.mongodb.net/app?retryWrites=true&w=majority",
+  "jwtSecret": "very secret"
+}

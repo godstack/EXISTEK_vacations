@@ -1,0 +1,22 @@
+.expected-date-wrapper {
+  margin: 50px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expected-date-wrapper label {
+  font-size: 1.5rem;
+  color: rgb(20, 19, 19);
+  text-align: center;
+}
+
+.expected-date-wrapper input {
+  text-align: center;
+}
+
+.expected-date-wrapper button {
+  margin-left: 20px;
+  background-color: rgb(111, 187, 13);
+}

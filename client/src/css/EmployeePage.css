@@ -1,0 +1,17 @@
+.employee-wrapper {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.balance {
+  font-size: 3rem;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px dashed black;
+  text-align: center;
+}
+
+.balance span {
+  font-weight: bold;
+  color: rgb(2, 7, 54);
+}

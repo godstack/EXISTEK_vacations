@@ -1,0 +1,47 @@
+.vac-item {
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vac-hide {
+  display: none;
+}
+
+.desc {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.item-description {
+  width: 70%;
+  padding: 0 10px;
+}
+
+.item-buttons {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-buttons button {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.btn-update {
+  background-color: rgb(106, 179, 34);
+}
+
+.btn-delete {
+  background-color: rgb(163, 19, 19);
+}
+
+.year-filter {
+  font-size: 1.5rem;
+}
